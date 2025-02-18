@@ -12,6 +12,12 @@ pipeline {
             steps {
                 wrap([$class: "Xvfb", debug: true, autoDisplayName: true]) {
                     sh "mvn test"
+
+
+
+
+
+
                 }
             }
         }
